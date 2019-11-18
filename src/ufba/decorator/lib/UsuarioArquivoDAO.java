@@ -9,7 +9,7 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-class UsuarioArquivoDAO implements UsuarioDAO {
+public class UsuarioArquivoDAO implements UsuarioDAO {
 	List<Usuario> usuarios = new ArrayList<Usuario>();
 	String filename = "usuarios.txt";
 	

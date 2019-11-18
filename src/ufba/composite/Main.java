@@ -1,6 +1,6 @@
 package ufba.composite;
 
-class Main {
+public class Main {
   public static void main(String[] args) {
   	Programador gates = new Programador("Bill Gates", 1.0);
   	Programador allen = new Programador("Paul Allen", 1.2);

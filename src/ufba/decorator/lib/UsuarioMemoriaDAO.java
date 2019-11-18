@@ -3,7 +3,7 @@ package ufba.decorator.lib;
 import java.util.ArrayList;
 import java.util.List;
 
-class UsuarioMemoriaDAO implements UsuarioDAO {
+public class UsuarioMemoriaDAO implements UsuarioDAO {
 	List<Usuario> usuarios = new ArrayList<Usuario>();
 	
 	public void apagarTudo() {

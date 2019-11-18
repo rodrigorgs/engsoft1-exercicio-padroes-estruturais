@@ -1,6 +1,6 @@
 package ufba.composite;
 
-class EstatisticasFinanceiras {
+public class EstatisticasFinanceiras {
 	// Custo de uma EUquipe
 	public static void imprimeCustoProjeto(Pessoa pessoa) {
 		System.out.println("Custo de " + pessoa.getNome() + ": " + pessoa.getSalario());

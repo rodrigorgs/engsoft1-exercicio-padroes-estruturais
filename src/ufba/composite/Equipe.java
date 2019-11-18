@@ -3,7 +3,7 @@ package ufba.composite;
 import java.util.ArrayList;
 import java.util.Collection;
 
-class Equipe {
+public class Equipe {
 	String nome;
 	Collection<Pessoa> pessoas = new ArrayList<Pessoa>();
 	Collection<Equipe> subequipes = new ArrayList<Equipe>();
