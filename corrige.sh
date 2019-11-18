@@ -10,17 +10,17 @@
 
 java -jar /opt/pattern4.jar -target bin -output out.xml
 
-temFactoryMethod=0
-temAbstractFactory=0
+temDecorator=0
+temComposite=0
 
-egrep '"FactoryMethod.*element=' out.xml > /dev/null
+egrep '"Decorator.*element=' out.xml > /dev/null
 if [[ $? == 0 ]]; then
-	temFactoryMethod=1
+	temDecorator=1
 fi
 egrep '"State".*element=' out.xml > /dev/null
 if [[ $? == 0 ]]; then
-	temAbstractFactory=1
+	temComposite=1
 fi
 
-echo $temFactoryMethod $temAbstractFactory
+echo $temDecorator $temComposite
 
