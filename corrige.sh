@@ -17,7 +17,7 @@ egrep '"Decorator.*element=' out.xml > /dev/null
 if [[ $? == 0 ]]; then
 	temDecorator=1
 fi
-egrep '"State".*element=' out.xml > /dev/null
+egrep '"Composite".*element=' out.xml > /dev/null
 if [[ $? == 0 ]]; then
 	temComposite=1
 fi
