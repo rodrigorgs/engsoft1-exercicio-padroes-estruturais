@@ -21,3 +21,4 @@ Inicialmente, equipes continham apenas pessoas, mas com o tempo os projetos fica
 
 Os dois problemas em negrito contribuem para tornar o código difícil de manter. Use o padrão de projeto `Composite` para resolver os dois problemas. Na sua solução, deve existir uma classe chamada `Membro`, que engloba os conceitos de pessoa, programador, designer, equipe.
 
+OBS.: a coleção usada na classe `Equipe` deve ser representada por um atributo do tipo `ArrayList` (se o tipo for `Collection`, a ferramenta de detecção de padrões não detecta o padrão corretamente).
